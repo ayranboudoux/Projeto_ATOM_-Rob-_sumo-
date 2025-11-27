@@ -1,10 +1,10 @@
 // Esse é o codigo do nosso querido ATOM!
 
 // --------- Motores (L298N) ---------
-int IN1 = 8;
-int IN2 = 9;
-int IN3 = 10;
-int IN4 = 11;
+int IN1 = 10;
+int IN2 = 11;
+int IN3 = 12;
+int IN4 = 13;
 
 // --------- Sensores de linha (DIGITAIS) ---------
 int ESQ = 2;
