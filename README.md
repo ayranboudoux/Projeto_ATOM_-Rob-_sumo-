@@ -1,4 +1,5 @@
-![ATOM](https://github.com/user-attachments/assets/bbafdee4-26d6-4664-b992-00db0a3f4e14)
+![ATOM](https://github.com/user-attachments/assets/b3f058ec-0672-4b41-976a-d7d797c7cb82)
+
 
 
 # 🤖 Projeto ATOM - Robô Sumô Autônomo
