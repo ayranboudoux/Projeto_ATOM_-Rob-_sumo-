@@ -76,7 +76,7 @@ if (duracao == 0){
 return 300; // nada detectado
 }
 
-distancia_cm = distancia_cm / 58;
+long distancia_cm = distancia_cm / 58;
 delay(30);
 return distancia_cm;
 }
