@@ -73,7 +73,7 @@ digitalWrite(TRIG, LOW);
 
 long duracao = pulseIn(ECHO, HIGH, 25000); // timeout de 25ms
 if (duracao == 0){
-return 300; // nada detectado
+return 150; // nada detectado
 }
 
 long distancia_cm = distancia_cm / 58;
@@ -188,6 +188,8 @@ vel = velMax; // acelera ao máximo
 frente();
 }
 if (sensorUltra_esq <= 50) {
+parar();
+delay(150);
 esquerda();
 delay(800);
 parar();
@@ -195,6 +197,8 @@ vel = velMax;
 frente();
 }
 if (sensorUltra_dir <= 50) {
+parar();
+delay(150);
 direita();
 delay(800);
 parar();
